@@ -611,6 +611,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox{
     background-color: #4D5AE5;
     fill: #FFFFFF;
+    border: none;
 }
 .checkbox-item:focus + .checkbox-label
 .checkbox{
@@ -638,11 +639,6 @@ letter-spacing: 0.04em;
     fill: transparent;
     margin-right: 8px;
     margin-bottom: 24px;
-}
-.checkbox:checked{
-    background-color: #404BBF;
-    fill: #f4f4fd;
-    border: none;
 }
 .checkbox-label-a{
     line-height: 133%;
