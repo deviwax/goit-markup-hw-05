@@ -639,7 +639,7 @@ letter-spacing: 0.04em;
     margin-right: 8px;
     margin-bottom: 24px;
 }
-.checkbox-.item:checked{
+.checkbox:checked{
     background-color: #404BBF;
     fill: #f4f4fd;
     border: none;
