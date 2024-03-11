@@ -396,19 +396,20 @@ margin-bottom: 16px;
 .logo-part-foot{
     color: #F4F4FD;
 }
+.foot-input{
+    margin-left: 80px;
+}
 .foot-subscribe{
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-left: 80px;
 margin-bottom: 16px;
 }
 .foot-input-item{
     display: flex;
     gap: 24px;
-    margin-left: 80px;
 }
 .foot-email{
     border: 1px solid #FFFFFF;
@@ -523,22 +524,15 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 .modal-p{
     margin-bottom: 16px;
-padding-top: 72px;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
-padding-bottom: 16px;
 }
 .form-input{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
     margin-bottom: 8px;
-    padding-top: 8px;
-    padding-left: 24px;
     border-radius: 4px;
     max-width: 360px;
 }
@@ -546,6 +540,7 @@ padding-bottom: 16px;
     margin-bottom: 16px;
 }
 .label-form{
+    display: block;
     margin-bottom: 4px;
 font-weight: 400;
 font-size: 12px;
@@ -604,7 +599,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
 }
 .form-checkbox{
-    margin-left: 24px;
     margin-bottom: 24px;
 }
 .checkbox-item:checked + .checkbox-label
@@ -638,7 +632,6 @@ letter-spacing: 0.04em;
     cursor: pointer;
     fill: transparent;
     margin-right: 8px;
-    margin-bottom: 24px;
 }
 .checkbox-label-a{
     line-height: 133%;
